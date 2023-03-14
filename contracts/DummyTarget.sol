@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Target {
+contract DummyTarget {
     address public timelockContract;
 
     constructor(address _timelock) {
