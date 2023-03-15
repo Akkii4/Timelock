@@ -14,7 +14,7 @@ async function main() {
 
   // Verify contract
   await hre.run("verify:verify", {
-    address: "0x54F92c1534613C94D87f6fAf3dDfa576e4668215",
+    address: lock.address,
   });
 }
 
